@@ -238,7 +238,7 @@ img {
 
 #home-b .stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
   #home-b .stats li {
     line-height: 2; }
     #home-b .stats li.stats-title {
@@ -350,11 +350,9 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 0.5rem; }
-  #about-d .testimonials img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem; }
+  #about-d .testimonials i {
+    color: #ccc;
+    padding-right: 10px; }
 
 #contact-a .text-fields {
   display: grid;

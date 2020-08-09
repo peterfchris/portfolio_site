@@ -21,7 +21,7 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #333b48; }
+  background-color: #114B5F; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -33,7 +33,7 @@ input[class^='btn-']:hover {
   color: #fff; }
 
 .bg-dark {
-  background: #333b48;
+  background: #114B5F;
   color: #fff; }
 
 .bg-light {
@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #333b48; }
+  color: #114B5F; }
 
 ul {
   list-style: none; }
@@ -215,6 +215,8 @@ img {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
+  #header-home img {
+    border-radius: 50%; }
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }
@@ -386,7 +388,7 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #333b48;
+  background: #114B5F;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {

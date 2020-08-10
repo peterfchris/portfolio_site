@@ -46,6 +46,10 @@ img  {
   justify-content: space-between;
   padding-top: 1rem;
 
+  img {
+    border-radius: 50%;
+  }
+
   ul {
     display: flex;
   }

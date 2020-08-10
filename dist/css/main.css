@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #01BAEF; }
+  background-color: #b64cff; }
 
 .btn-light {
   color: #333;
@@ -21,19 +21,19 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #114B5F; }
+  background-color: #0b111a; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #01BAEF; }
+  background-color: #b64cff; }
 
 .bg-main {
-  background: #01BAEF;
-  color: #fff; }
+  background: #b64cff;
+  color: #000; }
 
 .bg-dark {
-  background: #114B5F;
+  background: #0b111a;
   color: #fff; }
 
 .bg-light {
@@ -86,7 +86,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #01BAEF;
+  background: #b64cff;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #01BAEF;
+  background: #b64cff;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #114B5F; }
+  color: #0b111a; }
 
 ul {
   list-style: none; }
@@ -195,6 +195,8 @@ img {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem; }
+  #main-nav img {
+    border-radius: 50%; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -209,7 +211,7 @@ img {
     #main-nav a:hover {
       border-color: #CFD5DD; }
     #main-nav a.current {
-      border-color: #01BAEF; }
+      border-color: #b64cff; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
@@ -227,7 +229,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #01BAEF; }
+  border-bottom: 3px solid #b64cff; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -235,7 +237,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #01BAEF;
+    color: #b64cff;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -265,8 +267,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #01BAEF;
-    color: #fff;
+    background: #b64cff;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -285,7 +287,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #01BAEF;
+      background: #b64cff;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -303,7 +305,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #01BAEF; }
+  border-left: 3px solid #b64cff; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -317,7 +319,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #01BAEF;
+  color: #b64cff;
   margin: 1rem; }
 
 #about-b .progress {
@@ -330,7 +332,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #01BAEF; }
+    background: #b64cff; }
 
 #about-c .about-logos {
   display: grid;
@@ -388,7 +390,7 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #114B5F;
+  background: #0b111a;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {
@@ -407,7 +409,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social a .fab:hover {
-        background: #01BAEF; }
+        background: #b64cff; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -423,7 +425,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #01BAEF;
+    border-bottom: 3px solid #b64cff;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }

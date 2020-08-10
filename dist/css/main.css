@@ -41,8 +41,8 @@ input[class^='btn-']:hover {
   color: #000; }
 
 .bg-medium {
-  background: #CFD5DD;
-  color: #000; }
+  background: #060061;
+  color: #fff; }
 
 .lead {
   font-size: 1.3rem;
@@ -193,14 +193,14 @@ img {
 
 #main-nav {
   display: flex;
-  justify-content: space-between;
-  padding-top: 1rem; }
+  justify-content: space-between; }
   #main-nav img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    padding-top: .5rem; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
-    padding: 1rem 1.5rem; }
+    padding: 2rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
     color: #fff;
@@ -209,12 +209,12 @@ img {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #CFD5DD; }
+      border-color: #060061; }
     #main-nav a.current {
       border-color: #b64cff; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/bg-img.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home img {
@@ -227,7 +227,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/bg-img.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #b64cff; }
 
@@ -255,7 +255,7 @@ img {
     #home-b .stats div:nth-child(odd) {
       background: #fefffe; }
     #home-b .stats div:nth-child(even) {
-      background: #CFD5DD; }
+      background: #060061; }
 
 #home-c .process {
   display: grid;
@@ -277,7 +277,7 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #CFD5DD;
+    background: #060061;
     color: #fefffe;
     padding: 2rem;
     width: 70px;
@@ -292,7 +292,7 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #CFD5DD;
+        background: #060061;
         color: #fefffe; }
 
 #about-a .about-info {
@@ -325,7 +325,7 @@ img {
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #CFD5DD;
+  background: #060061;
   border-radius: 5px;
   margin-bottom: 0.6rem; }
   #about-b .progress div {
@@ -351,11 +351,11 @@ img {
     display: flex;
     align-items: center; }
   #about-d .testimonials p {
-    border: 1px solid #CFD5DD;
+    border: 1px solid #060061;
     border-radius: 5px;
     padding: 0.5rem; }
   #about-d .testimonials i {
-    color: #CFD5DD;
+    color: #060061;
     padding-right: 10px; }
 
 #contact-a .text-fields {

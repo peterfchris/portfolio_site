@@ -44,10 +44,11 @@ img  {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
-
+  // padding-top: 1rem;
+  
   img {
     border-radius: 50%;
+    padding-top: .5rem;
   }
 
   ul {
@@ -55,7 +56,7 @@ img  {
   }
 
   li {
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   a {

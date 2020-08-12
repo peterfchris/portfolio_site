@@ -209,7 +209,7 @@ img {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #060061; }
+      border-color: #fefffe; }
     #main-nav a.current {
       border-color: #01baef; }
 
@@ -225,6 +225,8 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+    #header-home .header-content a:hover {
+      color: #fefffe; }
 
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
@@ -248,14 +250,17 @@ img {
     #home-b .stats li.stats-title {
       font-size: 1.5rem; }
     #home-b .stats li.stats-number {
+      color: #0b111a;
       font-size: 2rem;
       font-weight: bold; }
+    #home-b .stats li:first-child {
+      color: #01baef; }
   #home-b .stats div {
     padding: 3rem 0; }
     #home-b .stats div:nth-child(odd) {
       background: #fefffe; }
     #home-b .stats div:nth-child(even) {
-      background: #060061; }
+      background: #fefffe; }
 
 #home-c .process {
   display: grid;
@@ -267,7 +272,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #01baef;
+    background: #060061;
     color: #fff;
     border-radius: 50%;
     height: 15px;
@@ -277,7 +282,7 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #060061;
+    background: #01baef;
     color: #fefffe;
     padding: 2rem;
     width: 70px;
@@ -287,12 +292,12 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #01baef;
+      background: #060061;
       width: 90px;
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #060061;
+        background: #01baef;
         color: #fefffe; }
 
 #about-a .about-info {
@@ -325,7 +330,7 @@ img {
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #060061;
+  background: #fefffe;
   border-radius: 5px;
   margin-bottom: 0.6rem; }
   #about-b .progress div {

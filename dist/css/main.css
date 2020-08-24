@@ -284,7 +284,7 @@ img {
     border-radius: 50%;
     background: #01baef;
     color: #fefffe;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -302,7 +302,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -311,21 +311,14 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #01baef; }
-
-#about-a .award-1 {
-  grid-area: aw1; }
-
-#about-a .award-2 {
-  grid-area: aw2; }
-
-#about-a .award-3 {
-  grid-area: aw3; }
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #01baef;
-  margin: 1rem; }
+  #about-a .bio h4 {
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: 1rem; }
+  #about-a .bio p {
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: 1rem; }
 
 #about-b .progress {
   overflow: hidden;

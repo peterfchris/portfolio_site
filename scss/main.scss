@@ -378,6 +378,12 @@ img  {
     list-style: circle;
   }
 
+  .process-list li {
+    margin-left: 3rem;
+    margin-bottom: .5rem;
+    list-style: circle;
+  }
+
   .piece img {
     display: block;
     margin-left: auto;
@@ -410,6 +416,10 @@ img  {
       display: grid;
       grid-template-columns: 200px 200px;
     }
+  }
+
+  .quote {
+    margin-left: 2rem;
   }
 }
 

@@ -441,6 +441,11 @@ img {
   margin-left: 3rem;
   list-style: circle; }
 
+#portfolio1 .process-list li {
+  margin-left: 3rem;
+  margin-bottom: .5rem;
+  list-style: circle; }
+
 #portfolio1 .piece img {
   display: block;
   margin-left: auto;
@@ -465,6 +470,9 @@ img {
   #portfolio1 .piece-list-item {
     display: grid;
     grid-template-columns: 200px 200px; }
+
+#portfolio1 .quote {
+  margin-left: 2rem; }
 
 .piece-title {
   margin-top: 1rem;

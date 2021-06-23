@@ -363,7 +363,46 @@ img  {
 }
 
 // Portfolio Piece
+#portfolio1 {
+  .piece-list-title {
+    margin-top: 1rem;
+  }
 
+  .list-title {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .piece ul li ul li {
+    margin-left: 3rem;
+    list-style: circle;
+  }
+
+  .piece-list {
+    margin-left: 1rem;
+
+    &-item {
+      display: grid;
+      grid-template-columns: 200px 200px;
+      grid-gap: .5rem;
+    }
+  }
+}
+
+
+.piece-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list-title li {
+  margin-left: 1rem;
+}
 
 // Footer
 #main-footer {

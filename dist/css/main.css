@@ -450,15 +450,21 @@ img {
 #portfolio1 .piece p {
   margin-bottom: .4rem; }
 
+#portfolio1 .piece .ACM-img {
+  max-width: 70%; }
+
+#portfolio1 .piece .ACM-img-1 {
+  max-width: 40%; }
+
+#portfolio1 .piece-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
 #portfolio1 .piece-list {
   margin-left: 1rem; }
   #portfolio1 .piece-list-item {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-gap: .5rem; }
-
-#portfolio1 .next {
-  text-align: center; }
+    grid-template-columns: 200px 200px; }
 
 .piece-title {
   margin-top: 1rem;

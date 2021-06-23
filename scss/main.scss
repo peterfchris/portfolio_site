@@ -389,19 +389,27 @@ img  {
     margin-bottom: .4rem;
   }
 
+  .piece .ACM-img {
+    max-width: 70%;
+  }
+
+  .piece .ACM-img-1 {
+    max-width: 40%;
+  }
+  
+  .piece-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // grid-gap: 2rem;
+  }
+
   .piece-list {
     margin-left: 1rem;
 
     &-item {
       display: grid;
       grid-template-columns: 200px 200px;
-      grid-gap: .5rem;
     }
-  }
-
-  .next {
-    
-    text-align: center;
   }
 }
 

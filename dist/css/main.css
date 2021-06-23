@@ -93,12 +93,24 @@ input[class^='btn-']:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+  grid-gap: 1rem; }
 
 .item {
   position: relative;
-  background: #01baef;
+  background: #fefffe;
   overflow: hidden; }
+  .item:first-child {
+    background: #01baef; }
+  .item:nth-child(4) {
+    background: #01baef; }
+  .item:nth-child(5) {
+    background: #01baef; }
+  .item:nth-child(2) {
+    grid-column: 2 / span 2; }
+  .item:nth-child(3) {
+    grid-column: 1 / span 2; }
+  .item:last-child {
+    grid-column: 2 / span 2; }
   .item::after {
     content: '';
     position: absolute;
@@ -111,13 +123,36 @@ input[class^='btn-']:hover {
     height: 100%;
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
     transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1); }
-  .item:hover:after {
-    transform: scale(2) translateX(0) translateY(0) rotate(-28deg); }
-  .item:hover .item-image {
-    transform: scale(1.2); }
-  .item:hover .item-text {
+  .item:first-child:hover:after {
+    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+    cursor: pointer; }
+  .item:first-child:hover .item-image {
+    transform: scale(1.2);
+    cursor: pointer; }
+  .item:first-child:hover .item-text {
     opacity: 1;
-    transform: translateY(0); }
+    transform: translateY(0);
+    cursor: pointer; }
+  .item:nth-child(4):hover:after {
+    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+    cursor: pointer; }
+  .item:nth-child(4):hover .item-image {
+    transform: scale(1.2);
+    cursor: pointer; }
+  .item:nth-child(4):hover .item-text {
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer; }
+  .item:nth-child(5):hover:after {
+    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+    cursor: pointer; }
+  .item:nth-child(5):hover .item-image {
+    transform: scale(1.2);
+    cursor: pointer; }
+  .item:nth-child(5):hover .item-text {
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer; }
   .item-image {
     height: auto;
     transform: translateZ(0);
@@ -156,12 +191,18 @@ input[class^='btn-']:hover {
   .item-text-title {
     font-size: 2rem;
     padding: 0 1rem;
-    margin: 5px 0 0 0; }
+    margin: 5px 0 0 0;
+    color: #fefffe; }
   .item-text-category {
     text-transform: uppercase;
     font-size: 1.2rem;
     opacity: 0.7rem;
-    margin: 0; }
+    margin: 0;
+    color: #fefffe; }
+  .item-content-title {
+    text-align: left; }
+  .item-content p {
+    text-align: left; }
 
 * {
   margin: 0;

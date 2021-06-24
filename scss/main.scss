@@ -130,10 +130,11 @@ img  {
   }
   // Home Section B
   &-b {
+    background-color: $gray-color;
     .stats {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-
+      
       li {
         line-height: 2;
 
@@ -155,10 +156,10 @@ img  {
         padding: 3rem 0;
 
         &:nth-child(odd) {
-          background: $light-color;
+          background: $gray-color;
         }
         &:nth-child(even) {
-          background: $light-color;
+          background: $gray-color;
         }
       }
     }
@@ -315,6 +316,15 @@ img  {
   }
 
   &-a {
+
+    .note a {
+      color: $main-color;
+    }
+    
+    .note a:hover {
+      color: $dark-color;
+    }
+
     .text-fields {
       display: grid;
       grid-template-areas: 

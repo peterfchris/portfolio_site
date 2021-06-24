@@ -44,6 +44,10 @@ input[class^='btn-']:hover {
   background: #060061;
   color: #fff; }
 
+.bg-gray {
+  background: #e0e0e0;
+  color: #000; }
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
@@ -283,25 +287,27 @@ img {
     color: #01baef;
     padding-bottom: 0.4rem; }
 
-#home-b .stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-  #home-b .stats li {
-    line-height: 2; }
-    #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
-    #home-b .stats li.stats-number {
-      color: #0b111a;
-      font-size: 2rem;
-      font-weight: bold; }
-    #home-b .stats li:first-child {
-      color: #01baef; }
-  #home-b .stats div {
-    padding: 3rem 0; }
-    #home-b .stats div:nth-child(odd) {
-      background: #fefffe; }
-    #home-b .stats div:nth-child(even) {
-      background: #fefffe; }
+#home-b {
+  background-color: #e0e0e0; }
+  #home-b .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    #home-b .stats li {
+      line-height: 2; }
+      #home-b .stats li.stats-title {
+        font-size: 1.5rem; }
+      #home-b .stats li.stats-number {
+        color: #0b111a;
+        font-size: 2rem;
+        font-weight: bold; }
+      #home-b .stats li:first-child {
+        color: #01baef; }
+    #home-b .stats div {
+      padding: 3rem 0; }
+      #home-b .stats div:nth-child(odd) {
+        background: #e0e0e0; }
+      #home-b .stats div:nth-child(even) {
+        background: #e0e0e0; }
 
 #home-c .process {
   display: grid;
@@ -401,6 +407,12 @@ img {
   display: flex;
   flex-direction: column;
   height: 81.7vh; }
+
+#contact-a .note a {
+  color: #01baef; }
+
+#contact-a .note a:hover {
+  color: #0b111a; }
 
 #contact-a .text-fields {
   display: grid;

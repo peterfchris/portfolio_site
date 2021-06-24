@@ -55,6 +55,10 @@ input[class^='btn-']:hover {
     background: $medium-color;
     color: set-text-color($medium-color);
   }
+  &-gray {
+      background: $gray-color;
+      color: set-text-color($gray-color);
+  }
 }
 
 .lead {

@@ -410,8 +410,7 @@ img {
 
 #contact-page {
   display: flex;
-  flex-direction: column;
-  height: 81.7vh; }
+  flex-direction: column; }
 
 #contact-a .note a {
   color: #01baef; }

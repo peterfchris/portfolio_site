@@ -1,7 +1,6 @@
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  // box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
   grid-gap: 1rem;
 }
 
@@ -11,39 +10,30 @@
   overflow: hidden;
 
   &:first-child{
-    background: $light-color;
+    grid-column: 1 / span 1;
   }
-
-  &:nth-child(4){
-    // background: $main-color;
-    grid-column: 2 / span 2;
-  }
-
-  &:nth-child(5){
-    // background: $main-color;
-    grid-column: 2 / span 2;
-  }
-
   &:nth-child(2){
     grid-column: 2 / span 2;
   }
-
-  &:nth-child(4){
+  &:nth-child(3){
     grid-column: 1 / span 2;
   }
-
-  &:first-child{
+  &:nth-child(5){
+    grid-column: 1 / span 1;
+  }
+  &:nth-child(6){
     grid-column: 2 / span 2;
   }
   &:nth-child(7){
-    grid-column: 2 / span 2;
-  }
-  &:nth-child(9){
     grid-column: 1 / span 2;
   }
-  &:nth-child(12){
+  &:nth-child(10){
     grid-column: 2 / span 2;
   }
+  &:nth-child(11){
+    grid-column: 1 / span 2;
+  }
+  
 
   &::after {
     content: '';
@@ -73,25 +63,6 @@
 
   // Bring in text on hover
   &:first-child:hover &-text {
-    opacity: 1;
-    transform: translateY(0);
-    cursor: pointer;
-  }
-
-  // Bring in main color overlay
-  &:nth-child(5):hover:after {
-    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
-    cursor: pointer;
-  }
-
-  // Scale image on hover
-  &:nth-child(5):hover &-image {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-
-  // Bring in text on hover
-  &:nth-child(5):hover &-text {
     opacity: 1;
     transform: translateY(0);
     cursor: pointer;

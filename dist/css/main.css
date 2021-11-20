@@ -104,23 +104,21 @@ input[class^='btn-']:hover {
   background: #fefffe;
   overflow: hidden; }
   .item:first-child {
-    background: #fefffe; }
-  .item:nth-child(4) {
-    grid-column: 2 / span 2; }
-  .item:nth-child(5) {
-    grid-column: 2 / span 2; }
+    grid-column: 1 / span 1; }
   .item:nth-child(2) {
     grid-column: 2 / span 2; }
-  .item:nth-child(4) {
+  .item:nth-child(3) {
     grid-column: 1 / span 2; }
-  .item:first-child {
+  .item:nth-child(5) {
+    grid-column: 1 / span 1; }
+  .item:nth-child(6) {
     grid-column: 2 / span 2; }
   .item:nth-child(7) {
-    grid-column: 2 / span 2; }
-  .item:nth-child(9) {
     grid-column: 1 / span 2; }
-  .item:nth-child(12) {
+  .item:nth-child(10) {
     grid-column: 2 / span 2; }
+  .item:nth-child(11) {
+    grid-column: 1 / span 2; }
   .item::after {
     content: '';
     position: absolute;
@@ -140,16 +138,6 @@ input[class^='btn-']:hover {
     transform: scale(1.2);
     cursor: pointer; }
   .item:first-child:hover .item-text {
-    opacity: 1;
-    transform: translateY(0);
-    cursor: pointer; }
-  .item:nth-child(5):hover:after {
-    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
-    cursor: pointer; }
-  .item:nth-child(5):hover .item-image {
-    transform: scale(1.2);
-    cursor: pointer; }
-  .item:nth-child(5):hover .item-text {
     opacity: 1;
     transform: translateY(0);
     cursor: pointer; }
